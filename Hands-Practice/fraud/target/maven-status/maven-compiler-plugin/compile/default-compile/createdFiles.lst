@@ -1,0 +1,8 @@
+com\mycompany\app\FraudCheckHistoryRepository.class
+com\mycompany\app\FraudCheckResponse.class
+com\mycompany\app\FraudApplication.class
+com\mycompany\app\FraudCheckService.class
+com\mycompany\app\FraudCheckHistory$FraudCheckHistoryBuilder.class
+com\mycompany\app\FraudCheckHistory.class
+com\mycompany\app\Main.class
+com\mycompany\app\FraudController.class

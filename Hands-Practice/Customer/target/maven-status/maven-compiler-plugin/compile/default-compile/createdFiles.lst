@@ -1,0 +1,10 @@
+com\mycompany\app\Customer$CustomerBuilder.class
+com\mycompany\app\CustomerApplication.class
+com\mycompany\app\CustomerRegistrationRequest.class
+com\mycompany\app\FraudCheckResponse.class
+com\mycompany\app\CustomerConfig.class
+com\mycompany\app\CustomerController.class
+com\mycompany\app\CustomerService.class
+com\mycompany\app\Main.class
+com\mycompany\app\CustomerRepository.class
+com\mycompany\app\Customer.class

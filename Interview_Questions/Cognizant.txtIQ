@@ -1,0 +1,42 @@
+String str = "the sky is blue";
+String reverse = "";
+
+public class Reverse{
+ public static void main(String args[]){
+  for(int i= str.length-1;i>=0;i--){
+   reverse = reverse+str.charAt(i);
+ }
+ System.out.println("the reverse string is " +reverse);
+ 
+ } 
+ ===================================================
+ for(int i=0;i<str,lenth;i++){
+ if(i==str.length-1)
+ reverse = str[i]+reverse;
+ else
+ reverse =" " +str[i]+reverse;
+ 
+ ====================================================
+ List<Integer> list =new AryaList<>();
+ String str = list.stream().map(str::valueOf);
+ 
+=====================================================
+
+ /student/getStudent?id=1&name=abc
+ @Controller
+ StudentController{
+ 
+ @Autowired
+  StudentService service
+  
+  @GetMapping(value = "/student/getStudent")
+  public ResponseEntity<Student> getStudentId(@RequestParam(name = id, required =false) int id,
+  @RequestParam(name = name, required =false) String name){
+  service.getStudentId(id,name);
+  
+  
+  Car{
+  functional interface and interface
+  
+  why default and static introduced in java 8? 
+  
