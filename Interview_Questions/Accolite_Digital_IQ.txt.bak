@@ -1,0 +1,89 @@
+PROBLEM STATEMENT: Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+{1,2,3,2,3,1} - true
+{1,2,3,4,4,5}
+false
+=========================================================================
+
+Miising number ?
+
+[1,2,3,4,6]
+public class Missing{
+
+int arr[] = new int[]{1,2,3,4,6};
+  int sum = n*(n+1)/2;
+
+for(int i=0;i<n;i++){
+  int sum2 = sum2+arr[i];
+  
+  int difference = sum1-sum2;
+===============================================================================  
+ In interface we have methods but no method implementation,
+ so how do you use method reference?
+
+==========================================
+difference between map() and flatmap() ?
+============================================== 
+Difference between hashset, treest, linkedhashset?
+==============================================  
+what if we have  2 elemnets which same hashdcode?
+   
+difference between == and .equals ?
+what is the o/p for a.equals(b) for the given input strings?
+   
+   a,b
+   a==b,
+============================================================  
+Explain immutablity ?
+when you want to use mutable object in immutable class as variable then deepcloning,and swallowing concept comes into picture
+   
+I have mutable class as address how do you use this in immutablity class and if i make any changes in address class should not reflect in Immutable class?
+=============================================================   
+multiple inherence wont support becuase of ambiguity
+=============================================================  
+   a,b,   
+   c nullPointer exception propagation,
+===============================================================   
+   try{
+   }
+   catch{
+   exception // all eceptions can be hanlded
+   }
+   catch{
+   arthimetic exception
+   
+parent child relationship in exceptions?
+======================================================================   
+when you want to use/call particular method in yml file/application.properties we need to use @Condtional, @Property annotations?
+===========================================================================   
+interface implement 2 class b,c to avoid ambiguity  we can use @qualifier  annotation?
+=============================================================================  
+what is dependency Injection and types ?
+=============================================================================  
+Difference between post and put ?
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
