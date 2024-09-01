@@ -19,7 +19,8 @@ public class ReverseWordString {
         System.out.println("the reverse of a String is: "+ reverse);
 
         // using streams
-        String reversedString = String.valueOf(Arrays.stream(str.split("\\s+")).reduce((word1, word2)-> word2 +" "+word1).orElse(""));
+        String reversedString = String.valueOf(Arrays.stream(str.split("\\s+"))
+                .reduce((word1, word2)-> word2 +" "+word1).orElse(""));
         System.out.println(reversedString);
     }
 }

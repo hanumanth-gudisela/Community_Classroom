@@ -22,9 +22,19 @@ for(int i=0;i<n;i++){
 
 ==========================================
 difference between map() and flatmap() ?
+map() is usually useful for one-to-one mappings, while flatMap() is more useful for flattening one-to-many mappings.
 ============================================== 
 Difference between hashset, treest, linkedhashset?
-==============================================  
+Can not contain duplicate items: All HashSet, LinkedHashSet, and TreeSet are implements Set interface. So they are not allowed to contains duplicates elements or objects.
+Not Thread Safe: All three are not synchronized and hence not Thread safe.
+Cloneable and Serializable: All three (HashSet, LinkedHashSet, TreeSet) are Cloneable and Serializable.
+fail-fast Iterator: All three will returne fail-fast Iterator. That is, ConcurrentModificationException will be thrown, if you try to modify the Iterator object after creation.
+=================================================
+When to use HashSet, LinkedHashSet, and TreeSet:
+Use HashSet: When there is no need to keep any order in elements but group of unique objects is needed.
+Use LinkedHashSet: When group of unique elements is needed and insertion order of elements is also required.
+Use TreeSet: When group of unique items/elements/objects is needed and sorting of the elements is required according to some Comparator.
+==============================================
 what if we have  2 elemnets which same hashdcode?
    
 difference between == and .equals ?
